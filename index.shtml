@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--#include virtual="/head.html"-->
+	<!--HEAD STARTS here -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/animate.css/3.1.0/animate.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script> -->
+
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/scroll.js"></script>
+
+</head>
+<!--HEAD ENDS here -->
+
+<body>
+
+<!-- Navigation -->
+<!--#include virtual="/head.html"-->
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+ <div class="container">
+		 <!-- Brand and toggle get grouped for better mobile display -->
+		 <div class="navbar-header page-scroll">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+				 </button>
+				 <!--header deactivated for now until i get an official logo -->
+				 <!-- <a class="navbar-brand page-scroll" href="#page-top">briangabot.com</a> -->
+		 </div>
+
+		 <!-- Collect the nav links, forms, and other content for toggling -->
+		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				 <ul class="nav navbar-nav navbar-right">
+						 <li>
+								 <a class="logo"></a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href="index.shtml">Home</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href="projects.shtml">Projects</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href="https://bgabot89.wordpress.com/">Blog</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href=Resume.pdf>Resume</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href="contact.shtml">Contact</a>
+						 </li>
+				 </ul>
+		 </div>
+		 <!-- /.navbar-collapse -->
+ </div>
+ <!-- /.container-fluid -->
+</nav>
+
+
+<section class="header">
+		<div class="os-animation" data-os-animation="bounceIn" data-os-animation-delay="0.5s">
+		<svg version="1.1" width="200px" id="bg-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 viewBox="0 0 475.5 447.7" style="enable-background:new 0 0 475.5 447.7;" xml:space="preserve">
+		<style type="text/css">
+			.st0{fill:#F8F7F8;}
+			.st1{font-family:'Courier';}
+			.st2{font-size:130px;}
+			.st3{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+		</style>
+		<text transform="matrix(1 0 0 1 137.4614 269.2308)" class="st0 st1 st2">bg</text>
+		<circle class="st3" cx="213.4" cy="230.9" r="180.8"/>
+		</svg>
+	 </div>
+		<h1> BRIAN GABOT</h1>
+		<ul id="list">
+		<li class="job-title">[front-end developer]</li> <b> | </b>
+		<li class="job-title">[designer]</li>
+		<br>
+		<a class="btn page-scroll" href="#about">Learn More</a>
+	</ul>
+</section>
+
+<div class="about">
+	<div class="os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
+		<img id="profile" src="css/images/profile.jpg">
+		<h2 class="about-par"> About Me </h2>
+			<p class="summary"> Hello World! </p>
+			<p class="summary"> My name is Brian Gabot. I am a developer currently seeking a junior front-end developer position. </p>
+			<p class="summary"> I’ve always been fascinated with computers. Ever since I got my first computer in 2006, I always wondered how the websites were created. Although I was intrigued with website creation, I never considered making a career out of it because I assumed you had to be an extreme mathematical genius to succeed in the field. Instead, I decided to study business management in college because I thought that it would be the best career based on my skillset. </p>
+			<p class="summary"> However, after working on a website project for a startup I was working for at the time, I realized where my true passion was. My true passion was to create things people would find useful. After playing around with some javascript and html on the web, I was intrigued by what you can create with lines of code.  After a few months of self-taught programming, I decided to transition into a web development career.  </p>
+			<p class="summary"> While I'm not in front of my computer developing or illustrating, I like to play table-top or video games. </p>
+	</div>
+</div>
+
+<div id="copyright" class="text-center">
+  <p id="copy-pp"> ©2016 Developed by Brian Gabot, All rights Reserved </p>
+</div>
+
+</body>
+</html>

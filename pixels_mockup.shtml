@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--#include virtual="/head.html"-->
+	<!--HEAD STARTS here -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/scroll.js"></script>
+  <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+
+	<script type="text/javascript" src="js/slick-slider.js"></script>
+</head>
+<body>
+
+	<!-- Navigation -->
+	<!--#include virtual="/head.html"-->
+	<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+	 <div class="container">
+			 <!-- Brand and toggle get grouped for better mobile display -->
+			 <div class="navbar-header page-scroll">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							 <span class="sr-only">Toggle navigation</span>
+							 <span class="icon-bar"></span>
+							 <span class="icon-bar"></span>
+							 <span class="icon-bar"></span>
+					 </button>
+					 <!--header deactivated for now until i get an official logo -->
+					 <!-- <a class="navbar-brand page-scroll" href="#page-top">briangabot.com</a> -->
+			 </div>
+
+			 <!-- Collect the nav links, forms, and other content for toggling -->
+			 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					 <ul class="nav navbar-nav navbar-right">
+							 <li>
+									 <a class="logo"></a>
+							 </li>
+							 <li class="">
+									 <a class="page-scroll" href="index.shtml">Home</a>
+							 </li>
+							 <li class="">
+									 <a class="page-scroll" href="projects.shtml">Projects</a>
+							 </li>
+							 <li class="">
+									 <a class="page-scroll" href="https://bgabot89.wordpress.com/">Blog</a>
+							 </li>
+							 <li class="">
+									 <a class="page-scroll" href=Resume.pdf>Resume</a>
+							 </li>
+							 <li class="">
+									 <a class="page-scroll" href="contact.shtml">Contact</a>
+							 </li>
+					 </ul>
+			 </div>
+			 <!-- /.navbar-collapse -->
+	 </div>
+	 <!-- /.container-fluid -->
+	</nav>
+
+<h2 class="proj-title"> Pixel Wearables Mockup </h2>
+<hr>
+
+<h2> The Proposed Final Product </h2>
+  <div class="phone-slider">
+     <div><img class="phone-slide" src="css/images/slide_1.png"></div>
+     <div><img class="phone-slide" src="css/images/slide_2.png"></div>
+     <div><img class="phone-slide" src="css/images/slide_3.png"></div>
+  </div>
+  <!-- <div> <img class="left" src="css/images/left_icon.png"></div>
+  <div> <img class="right" src="css/images/right_icon.png"></div> -->
+
+
+</body>
+</html>
