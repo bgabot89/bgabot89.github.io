@@ -11,14 +11,15 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/animate.css/3.1.0/animate.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous"></script>
+	<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script> -->
 
-	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/scroll.js"></script>
 
@@ -29,7 +30,7 @@
 
 <!-- Navigation -->
 <!--#include virtual="/head.html"-->
-<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+<nav class="navbar navbar-default navbar-static-top navbar-shrink">
  <div class="container">
 		 <!-- Brand and toggle get grouped for better mobile display -->
 		 <div class="navbar-header page-scroll">
@@ -46,14 +47,11 @@
 		 <!-- Collect the nav links, forms, and other content for toggling -->
 		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				 <ul class="nav navbar-nav navbar-right">
-						 <li>
-								 <a class="logo"></a>
+						 <li class="">
+								 <a class="page-scroll" href="#about">About Me</a>
 						 </li>
 						 <li class="">
-								 <a class="page-scroll" href="index.shtml">Home</a>
-						 </li>
-						 <li class="">
-								 <a class="page-scroll" href="projects.shtml">Projects</a>
+								 <a class="page-scroll" href="#projects">Projects</a>
 						 </li>
 						 <li class="">
 								 <a class="page-scroll" href="illustrations.shtml">Illustrations</a>
@@ -65,7 +63,7 @@
 								 <a class="page-scroll" href=Resume.pdf>Resume</a>
 						 </li>
 						 <li class="">
-								 <a class="page-scroll" href="contact.shtml">Contact</a>
+								 <a class="page-scroll" href="#contact">Contact</a>
 						 </li>
 				 </ul>
 		 </div>
@@ -98,48 +96,10 @@
 	</ul>
 </section>
 
-<div class="about">
+<div class="about" id="about">
 	<div class="os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 		<img id="profile" src="css/images/profile.jpg">
 		<h2 class="about-par"> About Me </h2>
-		<!-- <svg width="800px" version="1.1" id="hello_x5F_world" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-			 y="0px" viewBox="0 0 282.7 81.5" style="enable-background:new 0 0 282.7 81.5;" xml:space="preserve">
-		<g id="hello_x5F_text">
-			<g>
-				<path d="M23.7,33.3c0.4-0.1,0.6-0.1,1.1-0.2c-0.2,3.8-0.3,5.8-0.5,9.6c4.9-0.7,7.4-1,12.3-1.6c0.2-3.8,0.3-5.8,0.5-9.6
-					c0.4-0.1,0.6-0.1,1.1-0.1c-0.4,8.6-0.6,12.9-1,21.5C36.7,53,36.4,53,36,53c0.2-4.4,0.3-6.6,0.5-11c-4.9,0.6-7.4,0.9-12.3,1.6
-					c-0.2,4.4-0.4,6.6-0.6,11c-0.4,0.1-0.6,0.1-1.1,0.2C23,46.2,23.3,41.9,23.7,33.3z"/>
-				<path d="M46.8,30.3c4.7-0.5,7.1-0.8,11.8-1.2c0,0.4,0,0.5,0,0.9c-4.3,0.4-6.4,0.6-10.7,1.1c-0.2,3.5-0.2,5.2-0.4,8.7
-					c3.6-0.4,5.4-0.6,9-0.9c0,0.4,0,0.5,0,0.9c-3.6,0.4-5.4,0.5-9,0.9c-0.2,4-0.3,6.1-0.4,10.1c4.5-0.5,6.7-0.7,11.2-1.2
-					c0,0.4,0,0.5,0,0.9c-4.9,0.5-7.3,0.7-12.2,1.3C46.2,43.3,46.4,39,46.8,30.3z"/>
-				<path d="M65.7,28.5c0.4,0,0.6-0.1,1.1-0.1c-0.3,8.2-0.4,12.4-0.7,20.6c4.2-0.4,6.3-0.5,10.4-0.8c0,0.4,0,0.5,0,0.9
-					c-4.6,0.3-6.9,0.5-11.5,0.9C65.3,41.4,65.4,37.1,65.7,28.5z"/>
-				<path d="M83,27.1c0.4,0,0.6,0,1.1-0.1c-0.2,8.2-0.3,12.4-0.5,20.6c4.2-0.3,6.3-0.4,10.4-0.6c0,0.4,0,0.5,0,0.9
-					c-4.6,0.2-6.9,0.4-11.5,0.7C82.7,40,82.8,35.7,83,27.1z"/>
-				<path d="M98.1,37c0.1-6.8,3.9-11.2,9.1-11.4c5.2-0.2,8.9,4,8.8,10.8c-0.1,6.8-3.9,11.3-9.1,11.5C101.7,48,98,43.7,98.1,37z
-					 M114.9,36.4c0.1-6.2-3-10-7.7-9.9c-4.7,0.2-7.9,4.2-8,10.4c-0.1,6.2,3,10.1,7.7,9.9C111.7,46.7,114.9,42.6,114.9,36.4z"/>
-				<path d="M129.7,25.5c0.5,0,0.7,0,1.1,0c1.2,5.2,1.8,7.8,2.9,13c0.6,2.8,1,4.2,1.6,7c0.1,0,0.1,0,0.1,0c0.5-2.3,1.1-4.7,1.7-7
-					c1.4-5.2,2.2-7.8,3.6-13c0.5,0,0.7,0,1.2,0c1.5,5.2,2.2,7.8,3.7,13.1c0.7,2.8,1.1,4.2,1.9,7.1c0.1,0,0.1,0,0.1,0
-					c0.5-2.3,1-4.7,1.5-7c1.1-5.2,1.7-7.8,2.8-13c0.4,0,0.6,0,1.1,0c-1.9,8.5-2.9,12.8-4.9,21.4c-0.4,0-0.6,0-1.1,0
-					c-1.8-6.2-2.6-9.3-4.4-15.5c-0.4-1.7-0.8-3.1-1.2-4.8c-0.1,0-0.1,0-0.1,0c-0.4,1.7-0.9,3.1-1.3,4.8c-1.7,6.2-2.5,9.2-4.2,15.4
-					c-0.4,0-0.6,0-1.1,0C132.8,38.4,131.8,34.1,129.7,25.5z"/>
-				<path d="M157.9,36.5c-0.1-6.8,3.6-11,8.8-10.7c5.2,0.2,9,4.7,9.2,11.5c0.1,6.8-3.5,11-8.8,10.8C161.8,47.8,158,43.3,157.9,36.5z
-					 M174.7,37.2c-0.1-6.2-3.3-10.3-8-10.5c-4.7-0.2-7.8,3.6-7.7,9.8c0.1,6.2,3.3,10.3,8,10.5C171.8,47.3,174.9,43.4,174.7,37.2z"/>
-				<path d="M182.8,27c2.4,0.2,3.6,0.2,6.1,0.4c4.3,0.3,7.1,2.1,7.2,6.1c0.1,3.4-2.1,5.2-5.8,5.3c2.6,4.3,4,6.4,6.6,10.7
-					c-0.5,0-0.8-0.1-1.3-0.1c-2.6-4.3-3.9-6.4-6.5-10.6c-2-0.1-3-0.2-5-0.3c0.1,4.1,0.2,6.1,0.3,10.2c-0.4,0-0.6,0-1.1-0.1
-					C183.2,39.9,183,35.6,182.8,27z M188.8,37.8c4.1,0.3,6.3-1.1,6.2-4.4c-0.1-3.4-2.4-4.8-6.5-5.1c-1.8-0.1-2.8-0.2-4.6-0.3
-					c0.1,3.8,0.1,5.7,0.2,9.5C186,37.6,186.9,37.7,188.8,37.8z"/>
-				<path d="M202.6,28.5c0.4,0,0.6,0.1,1.1,0.1c0.3,8.2,0.4,12.4,0.7,20.6c4.2,0.4,6.3,0.6,10.4,1c0,0.4,0,0.5,0,0.9
-					c-4.6-0.5-6.9-0.7-11.5-1.1C203.1,41.4,202.9,37.1,202.6,28.5z"/>
-				<path d="M219.9,30.2c2,0.2,3,0.3,4.9,0.6c6.8,0.8,10,5.5,10.4,11.9s-2.5,10.4-9.4,9.6c-2-0.2-3-0.3-5-0.6
-					C220.5,43.2,220.3,38.9,219.9,30.2z M225.6,51.4c6.3,0.7,8.7-3.1,8.4-8.8c-0.3-5.7-3.1-10.2-9.3-10.9c-1.5-0.2-2.2-0.3-3.7-0.4
-					c0.3,7.9,0.5,11.8,0.9,19.7C223.4,51.2,224.1,51.2,225.6,51.4z"/>
-				<path d="M242.5,53.7c0-0.8,0.5-1.2,1.1-1.1c0.6,0.1,1.2,0.6,1.3,1.5c0,0.8-0.5,1.2-1.1,1.1C243.2,55,242.6,54.4,242.5,53.7z
-					 M242.2,34.7c0-0.8-0.1-1.2-0.1-2c0.4,0.1,0.6,0.1,1.1,0.1c0,0.8,0.1,1.2,0.1,2c0.3,5.7,0.4,8.5,0.7,14.2c-0.3,0-0.5-0.1-0.8-0.1
-					C242.7,43.3,242.5,40.4,242.2,34.7z"/>
-			</g>
-		</g>
-		</svg> -->
 
 			<p class="summary"> Hello World! </p>
 			<p class="summary"> My name is Brian Gabot. I am a developer currently seeking a junior front-end developer position. </p>
@@ -149,8 +109,8 @@
 	</div>
 </div>
 
+<!--
 <div class="row text-center interest-section">
-	<!-- <h2>My interests</h2> -->
 	<div class="col-lg-4">
 		<h3>Programming</h3>
 		<p class="interest-info">I am a self-taught web developer. My skillset is primarily front-end, with some back-end knowledge to boot. </p>
@@ -176,153 +136,101 @@
 		<p class="interest-info">I love watching animation shows. My childhood dream was to be a comic book/animation artist. Japanese anime is among my favorite types of animation medium. </p>
 	</div>
 </div>
+-->
 
-<div class="row text-center project-section">
-	<h2 class="proj-title">Solo Projects</h2>
-	<hr>
+<!-- <div class="row text-center project-section"> -->
 
+<div class="grid-content" id="projects">
 	<div class="grid">
+		<h2 class="proj-title">Projects</h2>
 		<figure class="effect-layla">
+            <a href="collab.shtml">
 			<img class="grid-image" src="css/images/collab-grid-image.png">
 			<figcaption>
 				<h4 class="grid-headliner">Collab-A-Comic</h4>
 				<p>A Ruby on Rails application to find collaboration partners for writers and artists </p>
+				<p class="read-more">Learn More</p>
 			</figcaption>
+            </a>
 		</figure>
 		<figure class="effect-layla">
+            <a href="persona.shtml">
 			<img class="grid-image" src="css/images/persona-grid-image.png">
 			<figcaption>
 				<h4 class="grid-headliner">Persona Gamer</h4>
-				<p>A Ruby on Rails application to find collaboration partners for writers and artists </p>
+				<p> Personality test application for rpg gamers</p>
+				<p class="read-more">Learn More</p>
 			</figcaption>
+            </a>
 		</figure>
 		<figure class="effect-layla">
+            <a href="saku.shtml">
 			<img class="grid-image" src="css/images/saku-grid-image.png">
 			<figcaption>
 				<h4 class="grid-headliner">Project Sakura</h4>
-				<p>A Ruby on Rails application to find collaboration partners for writers and artists </p>
+				<p>A React.js application used to find japanese concerts in the bay area</p>
+				<p class="read-more">Learn More</p>
 			</figcaption>
+            </a>
 		</figure>
 
 		<figure class="effect-layla">
+            <a href="jam.shtml">
 			<img class="grid-image" src="css/images/jam-grid-image.png">
 			<figcaption>
 				<h4 class="grid-headliner">Japanese American Project</h4>
 				<p>An Angular 1 prototype application built for the Japanese American Museum </p>
+				<p class="read-more">Learn More</p>
 			</figcaption>
+            </a>
 		</figure>
 
 	</div>
-</div>
-
-<h2 class="proj-title">Group/Freelance Projects</h2>
 
 <div class="grid">
 	<figure class="effect-layla">
+        <a href="seanronimo.shtml">
 		<img class="grid-image" src="css/images/sean-grid-image.png">
 		<figcaption>
 			<h4 class="grid-headliner">Seanronimo.com</h4>
-			<p>A Ruby on Rails application to find collaboration partners for writers and artists </p>
+			<p>Freelance project built in jQuery</p>
+			<p class="read-more">Learn More</p>
 		</figcaption>
+        </a>
 	</figure>
 	<figure class="effect-layla">
-		<img class="grid-image" src="css/images/lfg-grid-image.png">
-		<figcaption>
-			<h4 class="grid-headliner">Looking For Group</h4>
-			<p>A Ruby on Rails application to find collaboration partners for writers and artists </p>
-		</figcaption>
+        <a href="lfg.shtml">
+            <img class="grid-image" src="css/images/lfg-grid-image.png">
+            <figcaption>
+                <h4 class="grid-headliner">Looking For Group</h4>
+                <p>A Ruby on Rails application to find collaboration partners for comic book writers and artists </p>
+                <p class="read-more">Learn More</p>
+            </figcaption>
+        </a>
 	</figure>
 	<figure class="effect-layla">
-		<img class="grid-image" src="css/images/pixel-grid-image.png">
-		<figcaption>
-			<h4 class="grid-headliner">Pixel Wearables</h4>
-			<p>A Ruby on Rails application to find collaboration partners for writers and artists </p>
-		</figcaption>
+        <a href="pixels.shtml">
+            <img class="grid-image" src="css/images/pixel-grid-image.png">
+            <figcaption>
+                <h4 class="grid-headliner">Pixel Wearables</h4>
+                <p>An LED stealth-mode startup that I worked from Sept 2016-Dec 2016</p>
+                <p class="read-more">Learn More</p>
+            </figcaption>
+        </a>
 	</figure>
 	<figure class="effect-layla">
-		<img class="grid-image" src="css/images/squadie-grid-image.png">
-		<figcaption>
-			<h4 class="grid-headliner">Squaddie</h4>
-			<p>A Ruby on Rails application to find collaboration partners for writers and artists </p>
-		</figcaption>
+        <a href="squaddie.shtml">
+            <img class="grid-image" src="css/images/squadie-grid-image.png">
+            <figcaption>
+                <h4 class="grid-headliner">Squaddie</h4>
+                <p>Hackathon project that won 2nd price at API World 2016 </p>
+                <p class="read-more">Learn More</p>
+            </figcaption>
+        </a>
 	</figure>
 </div>
+</div> 
 
-
-	<!-- <div class="project-panel col-lg-6 col-md-6">
-	<figure class="snip1205 green">
-	  <img class="project-pic" src="css/images/Persona.jpg">
-	  <i class="ion-search"></i>
-		<a href="persona.shtml"></a>
-	  <p class="proj-description">Persona Gamer</p>
-	</figure>
-	</div>
-
-
-	<div class="project-panel col-lg-6 col-md-6">
-	<figure class="snip1205 gray">
-	  <img class="project-pic" src="css/images/lfg.png">
-	  <i class="ion-search"></i>
-		<a href="lfg.shtml"></a>
-	  <p id="lfg-text">Looking For Group</p>
-	</figure>
-	</div>
-
-	<div class="project-panel col-lg-6 col-md-6">
-	<figure class="snip1205 gold">
-	  <img class="project-pic" src="css/images/collab.jpg">
-	  <i class="ion-search"></i>
-		<a href="collab.shtml"></a>
-	  <p class="proj-description">Collab-A-Comic</p>
-	</figure>
-	</div>
-
-	<div class="project-panel col-lg-6 col-md-6">
-	<figure class="snip1205 pink">
-	  <img class="project-pic" src="css/images/project_saku.png">
-	  <i class="ion-search"></i>
-		<a href="saku.shtml"></a>
-	  <p class="proj-description">Project Sakura</p>
-	</figure>
-	</div>
-
-	<div class="project-panel col-lg-6 col-md-6">
-	  <figure class="snip1205 purple">
-	    <img class="project-pic" src="css/images/Pixels_Site.png">
-	    <i class="ion-search"></i>
-	    <a href="pixels.shtml"></a>
-	    <p id="pixel-text">Pixel Wearables</p>
-	  </figure>
-	</div>
-
-
-	<div class="project-panel col-lg-6 col-md-6">
-	<figure class="snip1205 red">
-	  <img class="project-pic" src="css/images/jam.png">
-	  <i class="ion-search"></i>
-		<a href="jam.shtml"></a>
-	  <p id="jam-text">Japanese American Museum Project</p>
-	</figure>
-	</div>
-
-	<div class="project-panel col-lg-6 col-md-6">
-	<figure class="snip1205 blue">
-	  <img class="project-pic" src="css/images/squaddie.png">
-	  <i class="ion-search"></i>
-		<a href="squaddie.shtml"></a>
-	  <p id="squaddie-text">Squaddie</p>
-	</figure>
-	</div>
-
-	<div class="project-panel col-lg-6 col-md-6">
-	  <figure class="snip1205 white">
-	    <img class="project-pic" src="css/images/seanronimo.png">
-	    <i class="ion-search"></i>
-	    <a href="seanronimo.shtml"></a>
-	    <p id="sean-text">Seanronimo.com</p>
-	  </figure>
-	</div>
-</div> -->
 <!--
  <div class="contact-section">
 	<h2 class="proj-title"> Interested? Let's Talk! </h2>
@@ -344,6 +252,19 @@
 <div id="copyright" class="text-center">
   <p id="copy-pp"> ©2016 Developed by Brian Gabot, All rights Reserved </p>
 </div> -->
+
+<div class="text-center contact-section" id="contact">
+    <h2 class="contact-interest"> Interested in working together?</h2>
+    <a class="lets-talk" href= "mailto: bgabot89@gmail.com">Let's talk</a>
+</div>
+    
+<footer class="footer">
+    <a href="https://github.com/bgabot89"><img class="footer-image" src="css/images/github-white.png"></a>
+   <a href="https://codepen.io/bgabot89/"><img class="footer-image" src="css/images/codepen_logo.png"></a>
+  <a href="https://www.linkedin.com/in/briangabot"><img class="footer-image" src="css/images/Linkedin-white.png"></a>
+    
+  <p class="copyright">©2017 Developed by Brian Gabot, All rights Reserved</p>
+</footer>
 
 
 

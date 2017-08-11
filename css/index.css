@@ -21,7 +21,7 @@ body {
 
 a {
 	text-decoration: none;
-	margin-right: 30px;
+/*	margin-right: 30px;*/
 	transition: ease 0.2s;
 }
 
@@ -56,7 +56,7 @@ hr {
 	border-top: 1px solid black;
 }
 
-h1, #list{
+h1, #list {
 	font-family: Lato;
 	font-size: 70px;
 	color: #fff;
@@ -86,7 +86,8 @@ h1, #list{
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    /*background-color: #222;*/
+		background-color: rgba(0,0,0,0)!important;
 }
 
 a,
@@ -173,11 +174,13 @@ a.active {
 
 /*bg-image*/
 .header {
-	padding-top: 15px;
+	/*padding-top: 15px;*/
+	margin-top: -120px;
 	background: linear-gradient(135deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('http://res.cloudinary.com/bchan89/image/upload/v1484102296/sunset_ovlvbl.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+    background-attachment: fixed;
 	height: 720px;
 	width: 100%;
 }
@@ -220,6 +223,12 @@ a.active {
 
 .contact-section {
 	height: 400px;
+/*    background-color: aliceblue;*/
+    background-image: linear-gradient(135deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('http://res.cloudinary.com/bchan89/image/upload/v1502256164/denys-nevozhai-249514_gryl1b.jpg');
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center center;
+    
 }
 
 .interest-section {
@@ -296,7 +305,7 @@ img#profile {
 }
 
 .proj-title {
-	font-size: 50px;
+	font-size: 2em;
 }
 
 .proj {
@@ -450,7 +459,7 @@ grid-headliner {
 
 
 .grid {
-	position: relative;
+	/*position: relative;*/
 	margin: 0 auto;
 	padding: 1em 0 4em;
 	max-width: 1000px;
@@ -459,18 +468,101 @@ grid-headliner {
 }
 
 /* Common style */
-.grid figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
-	width: 48%;
-	background: #3085a3;
-	text-align: center;
-	cursor: pointer;
+
+@media (min-width:1000px) {
+	.grid figure {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		margin: 10px 1%;
+		min-width: 320px;
+		max-width: 480px;
+		max-height: 360px;
+		width: 48%;
+		background: #3085a3;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+@media (max-width:999px) {
+	.grid figure {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		margin: 10px 1%;
+		min-width: 320px;
+		max-width: 400px;
+		max-height: 340px;
+		width: 48%;
+		background: #3085a3;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+@media (max-width:800px) {
+	.grid figure {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		margin: 10px 1%;
+		min-width: 320px;
+		max-width: 380px;
+		max-height: 300px;
+		width: 48%;
+		background: #3085a3;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+@media (max-width:600px) {
+	.grid figure {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		margin: 10px 1%;
+		min-width: 250px;
+		max-width: 300px;
+		max-height: 200px;
+		width: 48%;
+		background: #3085a3;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+@media (max-width:520px) {
+	.grid figure {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		margin: 10px 1%;
+		min-width: 200px;
+		max-width: 300px;
+		max-height: 170px;
+		width: 48%;
+		background: #3085a3;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+@media (max-width:418px) {
+	.grid figure {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		margin: 10px 1%;
+		min-width: 175px;
+		max-width: 275px;
+		max-height: 170px;
+		width: 48%;
+		background: #3085a3;
+		text-align: center;
+		cursor: pointer;
+	}
 }
 
 .grid figure img {
@@ -592,6 +684,18 @@ figure.effect-layla p {
 	transform: translate3d(0,-10px,0);
 }
 
+figure.effect-layla .read-more {
+  display: inline-block;
+  padding: 15px 40px;
+  border: 2px solid #ddd;
+  color: white;
+  text-decoration: none;
+  margin: 50px 20px 20px 0;
+	text-transform: none;
+	-webkit-transform: translate3d(0,-10px,0);
+	transform: translate3d(0,-10px,0);
+}
+
 figure.effect-layla img,
 figure.effect-layla h2 {
 	-webkit-transform: translate3d(0,-30px,0);
@@ -708,8 +812,8 @@ figure.snip1205 {
   position: relative;
   float: left;
   overflow: hidden;
-	margin-left: 100px;
-	margin-top: 50px;
+  margin-left: 100px; 
+  margin-top: 50px;
   min-width: 220px;
   max-width: 375px;
   width: 100%;
@@ -885,8 +989,104 @@ figure.snip1205:hover #pixel-text{
 
 .os-animation {
 	opacity:0;
+	padding-top: 30px;
 }
 
 .os-animation.animated{
 	opacity: 1;
+}
+
+.footer {
+	 width: 100%;
+	 height: 150px;
+	 padding: 1rem;
+	 background-color: black;
+	 opacity: 0.8;
+	 text-align: center;
+}
+
+.grid-content {
+	margin: 0 auto;
+	max-width: 1000px;
+	height: 1800px;
+	/*max-height: 2000px;*/
+}
+
+@media (max-width:900px) {
+	.grid-content {
+		margin: 0 auto;
+		max-width: 1000px;
+		height: 1800px;
+		/*max-height: 2000px;*/
+	}
+}
+@media (max-width:670px) {
+	.grid-content {
+		margin: 0 auto;
+		max-width: 1000px;
+		height: 3000px;
+		/*max-height: 2000px;*/
+	}
+}
+
+@media (max-width:600px) {
+	.grid-content {
+		margin: 0 auto;
+		max-width: 1000px;
+		height: 1200px;
+		/*max-height: 2000px;*/
+	}
+}
+
+@media (max-width:520px) {
+	.grid-content {
+		margin: 0 auto;
+		max-width: 1000px;
+		height: 1000px;
+		/*max-height: 2000px;*/
+	}
+}
+
+@media (max-width:418px) {
+	.grid-content {
+		margin: 0 auto;
+		max-width: 1000px;
+		height: 1200px;;
+		/*max-height: 2000px;*/
+	}
+}
+
+.lets-talk {
+  margin-top: 50px;
+  display: inline-block;
+  padding: 15px 50px;
+  border: 2px solid #ddd;
+  color: white;
+}
+
+.lets-talk:hover {
+    background-color: #2cb9d9;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.25em;
+}
+
+.contact-interest {
+    color: white;
+}
+
+.footer-image {
+    width: 50px;
+}
+
+.footer-image:hover {
+    cursor: pointer   
+}
+
+.page-scroll {
+    margin-right: 20px;
 }
