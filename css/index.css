@@ -1121,8 +1121,38 @@ figure.snip1205:hover #pixel-text{
     float: none!important;
 }
 
+
 @media (max-width: 995px) {
-    .collapse {
+    .navbar-collapse.collapse {
         display: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+     .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-header {
+        float: none;
+    }
+/*
+      .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+*/
+/*
+     .navbar-nav>li {
+        float: none;
+    }
+*/
+/*
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+*/
+    .collapse.in{
+        display:block !important;
     }
 }
