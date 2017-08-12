@@ -87,7 +87,7 @@ h1, #list {
 .navbar-default {
     border-color: transparent;
     /*background-color: #222;*/
-		background-color: rgba(0,0,0,0)!important;
+		background-color: rgba(0,0,0,0.2)!important;
 }
 
 a,
@@ -175,7 +175,7 @@ a.active {
 /*bg-image*/
 .header {
 	/*padding-top: 15px;*/
-	margin-top: -120px;
+/*	margin-top: -120px;*/
 	background: linear-gradient(135deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('http://res.cloudinary.com/bchan89/image/upload/v1484102296/sunset_ovlvbl.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -684,16 +684,32 @@ figure.effect-layla p {
 	transform: translate3d(0,-10px,0);
 }
 
-figure.effect-layla .read-more {
-  display: inline-block;
-  padding: 15px 40px;
-  border: 2px solid #ddd;
-  color: white;
-  text-decoration: none;
-  margin: 50px 20px 20px 0;
-	text-transform: none;
-	-webkit-transform: translate3d(0,-10px,0);
-	transform: translate3d(0,-10px,0);
+@media (min-width: 800px) {
+    figure.effect-layla .read-more {
+      display: inline-block;
+      padding: 15px 40px;
+      border: 2px solid #ddd;
+      color: white;
+      text-decoration: none;
+      margin: 50px 20px 20px 0;
+        text-transform: none;
+        -webkit-transform: translate3d(0,-10px,0);
+        transform: translate3d(0,-10px,0);
+    }
+}
+
+@media (max-width: 799px) {
+    figure.effect-layla .read-more {
+      display: inline-block;
+      padding: 15px 40px;
+      border: 2px solid #ddd;
+      color: white;
+      text-decoration: none;
+      margin: 20px 20px 20px 0;
+        text-transform: none;
+        -webkit-transform: translate3d(0,-10px,0);
+        transform: translate3d(0,-10px,0);
+    }
 }
 
 figure.effect-layla img,
@@ -1089,4 +1105,24 @@ figure.snip1205:hover #pixel-text{
 
 .page-scroll {
     margin-right: 20px;
+}
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+.navbar-brand {
+    float: none!important;
+}
+
+@media (max-width: 995px) {
+    .collapse {
+        display: none !important;
+    }
 }

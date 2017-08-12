@@ -30,7 +30,7 @@
 
 <!-- Navigation -->
 <!--#include virtual="/head.html"-->
-<nav class="navbar navbar-default navbar-static-top navbar-shrink">
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
  <div class="container">
 		 <!-- Brand and toggle get grouped for better mobile display -->
 		 <div class="navbar-header page-scroll">
@@ -41,12 +41,24 @@
 						 <span class="icon-bar"></span>
 				 </button>
 				 <!--header deactivated for now until i get an official logo -->
-				 <!-- <a class="navbar-brand page-scroll" href="#page-top">briangabot.com</a> -->
+				  <a class="navbar-brand page-scroll" href="#page-top">
+                     <svg width="80px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 viewBox="0 0 475.5 447.7" style="enable-background:new 0 0 475.5 447.7;" xml:space="preserve">
+		  <style type="text/css">
+			.st0{fill:#F8F7F8;}
+			.st1{font-family:'Courier';}
+			.st2{font-size:130px;}
+			.st3{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+		</style>
+		<text transform="matrix(1 0 0 1 137.4614 269.2308)" class="st0 st1 st2">bg</text>
+		<circle class="st3" cx="213.4" cy="230.9" r="180.8"/>
+		</svg>
+             </a> 
 		 </div>
 
 		 <!-- Collect the nav links, forms, and other content for toggling -->
 		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				 <ul class="nav navbar-nav navbar-right">
+				 <ul class="nav navbar-nav navbar-left">
 						 <li class="">
 								 <a class="page-scroll" href="#about">About Me</a>
 						 </li>
@@ -77,7 +89,7 @@
 		<div class="os-animation" data-os-animation="bounceIn" data-os-animation-delay="0.5s">
 		<svg version="1.1" width="200px" id="bg-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 			 viewBox="0 0 475.5 447.7" style="enable-background:new 0 0 475.5 447.7;" xml:space="preserve">
-		<style type="text/css">
+		  <style type="text/css">
 			.st0{fill:#F8F7F8;}
 			.st1{font-family:'Courier';}
 			.st2{font-size:130px;}
