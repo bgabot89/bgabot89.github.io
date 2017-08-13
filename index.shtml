@@ -29,7 +29,6 @@
 <body>
 
 <!-- Navigation -->
-<!--#include virtual="/head.html"-->
 <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
  <div class="container">
 		 <!-- Brand and toggle get grouped for better mobile display -->
@@ -41,7 +40,7 @@
 						 <span class="icon-bar"></span>
 				 </button>
 				 <!--header deactivated for now until i get an official logo -->
-				  <a class="navbar-brand page-scroll" href="#page-top">
+				  <a class="navbar-brand page-scroll" href="index.shtml">
                      <svg width="80px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 			 viewBox="0 0 475.5 447.7" style="enable-background:new 0 0 475.5 447.7;" xml:space="preserve">
 		  <style type="text/css">
@@ -58,12 +57,9 @@
 
 		 <!-- Collect the nav links, forms, and other content for toggling -->
 		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				 <ul class="nav navbar-nav navbar-left">
+				 <ul class="nav navbar-nav navbar-right">
 						 <li class="">
-								 <a class="page-scroll" href="#about">About Me</a>
-						 </li>
-						 <li class="">
-								 <a class="page-scroll" href="#projects">Projects</a>
+								 <a class="page-scroll" href="index.shtml">Home</a>
 						 </li>
 						 <li class="">
 								 <a class="page-scroll" href="illustrations.shtml">Illustrations</a>
@@ -75,7 +71,7 @@
 								 <a class="page-scroll" href=Resume.pdf>Resume</a>
 						 </li>
 						 <li class="">
-								 <a class="page-scroll" href="#contact">Contact</a>
+								 <a class="page-scroll" href= "mailto: bgabot89@gmail.com">Contact</a>
 						 </li>
 				 </ul>
 		 </div>

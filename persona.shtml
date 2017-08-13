@@ -25,49 +25,57 @@
 
 <body>
 
-	<!-- Navigation -->
-	<!--#include virtual="/head.html"-->
-	<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-	 <div class="container">
-			 <!-- Brand and toggle get grouped for better mobile display -->
-			 <div class="navbar-header page-scroll">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							 <span class="sr-only">Toggle navigation</span>
-							 <span class="icon-bar"></span>
-							 <span class="icon-bar"></span>
-							 <span class="icon-bar"></span>
-					 </button>
-					 <!--header deactivated for now until i get an official logo -->
-					 <!-- <a class="navbar-brand page-scroll" href="#page-top">briangabot.com</a> -->
-			 </div>
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+ <div class="container">
+		 <!-- Brand and toggle get grouped for better mobile display -->
+		 <div class="navbar-header page-scroll">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+				 </button>
+				 <!--header deactivated for now until i get an official logo -->
+				  <a class="navbar-brand page-scroll" href="index.shtml">
+                     <svg width="80px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 viewBox="0 0 475.5 447.7" style="enable-background:new 0 0 475.5 447.7;" xml:space="preserve">
+		  <style type="text/css">
+			.st0{fill:#F8F7F8;}
+			.st1{font-family:'Courier';}
+			.st2{font-size:130px;}
+			.st3{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+		</style>
+		<text transform="matrix(1 0 0 1 137.4614 269.2308)" class="st0 st1 st2">bg</text>
+		<circle class="st3" cx="213.4" cy="230.9" r="180.8"/>
+		</svg>
+             </a> 
+		 </div>
 
-			 <!-- Collect the nav links, forms, and other content for toggling -->
-			 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					 <ul class="nav navbar-nav navbar-right">
-							 <li>
-									 <a class="logo"></a>
-							 </li>
-							 <li class="">
-									 <a class="page-scroll" href="index.shtml">Home</a>
-							 </li>
-							 <li class="">
-									 <a class="page-scroll" href="projects.shtml">Projects</a>
-							 </li>
-							 <li class="">
-									 <a class="page-scroll" href="https://bgabot89.wordpress.com/">Blog</a>
-							 </li>
-							 <li class="">
-									 <a class="page-scroll" href=Resume.pdf>Resume</a>
-							 </li>
-							 <li class="">
-									 <a class="page-scroll" href="contact.shtml">Contact</a>
-							 </li>
-					 </ul>
-			 </div>
-			 <!-- /.navbar-collapse -->
-	 </div>
-	 <!-- /.container-fluid -->
-	</nav>
+		 <!-- Collect the nav links, forms, and other content for toggling -->
+		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				 <ul class="nav navbar-nav navbar-right">
+						 <li class="">
+								 <a class="page-scroll" href="index.shtml">Home</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href="illustrations.shtml">Illustrations</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href="https://bgabot89.wordpress.com/">Blog</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href=Resume.pdf>Resume</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href= "mailto: bgabot89@gmail.com">Contact</a>
+						 </li>
+				 </ul>
+		 </div>
+		 <!-- /.navbar-collapse -->
+ </div>
+ <!-- /.container-fluid -->
+</nav>
 
 <h2 class="proj-title"> Persona Gamer </h2>
 <hr>
