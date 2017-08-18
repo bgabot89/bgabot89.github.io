@@ -96,7 +96,7 @@
 		<circle class="st3" cx="213.4" cy="230.9" r="180.8"/>
 		</svg>
 	 </div>
-		<h1> BRIAN GABOT</h1>
+		<h1 id="name-header"> BRIAN GABOT</h1>
 		<ul id="list">
 		<li class="job-title">[front-end developer]</li> <b> | </b>
 		<li class="job-title">[designer]</li>
@@ -167,7 +167,7 @@
             </a>
 		</figure>
 		<figure class="effect-layla">
-            <a href="persona.shtml">
+            <a id="demo02" href="#modal-02">
 			<img class="grid-image" src="css/images/persona-grid-image.png">
 			<figcaption>
 				<h4 class="grid-headliner">Persona Gamer</h4>
@@ -177,7 +177,7 @@
             </a>
 		</figure>
 		<figure class="effect-layla">
-            <a href="saku.shtml">
+            <a id="demo03" href="#modal-03">
 			<img class="grid-image" src="css/images/saku-grid-image.png">
 			<figcaption>
 				<h4 class="grid-headliner">Project Sakura</h4>
@@ -188,7 +188,7 @@
 		</figure>
 
 		<figure class="effect-layla">
-            <a href="jam.shtml">
+            <a id="demo04" href="#modal-04">
 			<img class="grid-image" src="css/images/jam-grid-image.png">
 			<figcaption>
 				<h4 class="grid-headliner">Japanese American Project</h4>
@@ -197,12 +197,9 @@
 			</figcaption>
             </a>
 		</figure>
-
-	</div>
-
-<div class="grid">
+        
 	<figure class="effect-layla">
-        <a href="seanronimo.shtml">
+        <a id="demo05" href="#modal-05">
 		<img class="grid-image" src="css/images/sean-grid-image.png">
 		<figcaption>
 			<h4 class="grid-headliner">Seanronimo.com</h4>
@@ -212,17 +209,17 @@
         </a>
 	</figure>
 	<figure class="effect-layla">
-        <a href="lfg.shtml">
+        <a id="demo06" href="#modal-06">
             <img class="grid-image" src="css/images/lfg-grid-image.png">
             <figcaption>
                 <h4 class="grid-headliner">Looking For Group</h4>
-                <p>A Ruby on Rails application to find collaboration partners for comic book writers and artists </p>
+                <p>A ruby on rails app used as a social networking portal for gamers.</p>
                 <p class="read-more">Learn More</p>
             </figcaption>
         </a>
 	</figure>
 	<figure class="effect-layla">
-        <a href="pixels.shtml">
+        <a id="demo07" href="#modal-07">
             <img class="grid-image" src="css/images/pixel-grid-image.png">
             <figcaption>
                 <h4 class="grid-headliner">Pixel Wearables</h4>
@@ -232,7 +229,7 @@
         </a>
 	</figure>
 	<figure class="effect-layla">
-        <a href="squaddie.shtml">
+        <a id="demo08" href="#modal-08">
             <img class="grid-image" src="css/images/squadie-grid-image.png">
             <figcaption>
                 <h4 class="grid-headliner">Squaddie</h4>
@@ -244,6 +241,9 @@
 </div>
 </div> 
     
+    
+    
+    <!--All Modals go here-->
     <div id="modal-01">
             <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->                
             <div class="modalContentComic">
@@ -278,16 +278,317 @@
         The website was created through ruby on rails for the front-end and PostgreSQL for the backend. Although I used this stack on LFG, the group project that I worked on, I chose Rails/PostgreSQL to show that I can create a ruby on rails project on my own. </p>
                 <h1 id="techs"> Technologies Used:</h1>
                 <div class="text-center">
-                <img class="tech-icon" src="css/images/rails.png"/>
-                <img class="tech-icon" src="css/images/postgres.png"/>
-                <img class="tech-icon" src="css/images/Photoshop.jpg"/>
-                    </div>
+                    <img class="tech-icon" src="css/images/ruby.png"/>
+                    <img class="tech-icon" src="css/images/rails.png"/>
+                    <img class="tech-icon" src="css/images/postgres.png"/>
+                    <img class="tech-icon" src="css/images/Photoshop.jpg"/>
+                        </div>
                 <div class="text-center container">
             
         <div class="web-links"><a class="external-link" href="http://collabacomic.herokuapp.com/">Website</a><a class="external-link" href="https://github.com/bgabot89/ComicMatcher">Github Code</a></div>
                     </div>
             </div>
         </div>
+    
+    
+    
+    <div id="modal-02">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->                
+            <div class="modalContentPersona">
+                <span id="btn-close-modal" class="close-modal-02"> 
+                <svg version="1.1" id="close-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612.006 612.006" style="color: white; z-index:1;" xml:space="preserve">
+                    <g id="x-button">
+                        <g>
+		                     <g>
+			                     <g id="x-svg">
+                                    <path d="M423.23,437.955c-3.769,0-7.53-1.438-10.41-4.311L178.371,199.177c-5.748-5.747-5.748-15.068,0-20.815
+                                        c5.753-5.753,15.068-5.753,20.815,0l234.45,234.46c5.753,5.753,5.753,15.075,0,20.815
+                                        C430.762,436.518,426.999,437.955,423.23,437.955z"/>
+                                    <path d="M188.781,437.955c-3.769,0-7.531-1.438-10.411-4.311c-5.748-5.747-5.748-15.069,0-20.816l234.449-234.466
+                                        c5.753-5.753,15.068-5.753,20.815,0c5.753,5.747,5.753,15.068,0,20.815l-234.45,234.467
+                                        C196.313,436.518,192.544,437.955,188.781,437.955z"/>
+                                </g>
+                                <path d="M306.038,612.006v-14.721l-0.023,14.721c-168.722,0-306-137.271-306.012-306C0.003,137.272,137.275,0,306.003,0
+                                    c168.729,0,306,137.272,306,306.006C612.003,474.74,474.743,612.006,306.038,612.006z M306.003,29.442
+                                    c-152.5,0-276.558,124.064-276.558,276.563c0.012,152.487,124.076,276.558,276.569,276.558h0.023
+                                    c152.47,0,276.521-124.059,276.521-276.558C582.561,153.506,458.496,29.442,306.003,29.442z"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                    </span>
+                <!--Your modal content goes here-->
+                <h1 id="modal-headliner"> Persona Gamer </h1>
+                <p id="modal-starter" class="modal-info container"> Persona Gamer is a personality test application catered towards RPG gamers. This was the first full-stack web application that I ever created. For the front-end, I used HTML, CSS, Javascript and jQuery. For the back-end, I used MongoDB.</p>
+                <p class="modal-info container">     
+                When I first started building the application, I integrated traitify's API. However, I found that their were certain restrictions of the API. In the end, I removed the API from the site and replaced it with personality tests rewritten in jQuery and vanilla javascript.</p>
+                <h1 id="techs"> Technologies Used:</h1>
+                <div class="text-center">
+                <img class="tech-icon" src="css/images/javascript.png"/>
+                <img class="tech-icon" src="css/images/mongodb.png"/>
+                    <img class="tech-icon" src="css/images/jquery.png"/>
+                <img class="tech-icon" src="css/images/Photoshop.jpg"/>
+                    </div>
+                <div class="text-center container">
+            
+        <div class="web-links"><a class="external-link" href="http://shrouded-caverns-8468.herokuapp.com/">Website</a><a class="external-link" href="https://github.com/bgabot89/project-1">Github Code</a></div>
+                    </div>
+            </div>
+        </div>
+    
+     <div id="modal-03">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->                
+            <div class="modalContentSakura">
+                <span id="btn-close-modal" class="close-modal-03"> 
+                <svg version="1.1" id="close-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612.006 612.006" style="color: white; z-index:1;" xml:space="preserve">
+                    <g id="x-button">
+                        <g>
+		                     <g>
+			                     <g id="x-svg">
+                                    <path d="M423.23,437.955c-3.769,0-7.53-1.438-10.41-4.311L178.371,199.177c-5.748-5.747-5.748-15.068,0-20.815
+                                        c5.753-5.753,15.068-5.753,20.815,0l234.45,234.46c5.753,5.753,5.753,15.075,0,20.815
+                                        C430.762,436.518,426.999,437.955,423.23,437.955z"/>
+                                    <path d="M188.781,437.955c-3.769,0-7.531-1.438-10.411-4.311c-5.748-5.747-5.748-15.069,0-20.816l234.449-234.466
+                                        c5.753-5.753,15.068-5.753,20.815,0c5.753,5.747,5.753,15.068,0,20.815l-234.45,234.467
+                                        C196.313,436.518,192.544,437.955,188.781,437.955z"/>
+                                </g>
+                                <path d="M306.038,612.006v-14.721l-0.023,14.721c-168.722,0-306-137.271-306.012-306C0.003,137.272,137.275,0,306.003,0
+                                    c168.729,0,306,137.272,306,306.006C612.003,474.74,474.743,612.006,306.038,612.006z M306.003,29.442
+                                    c-152.5,0-276.558,124.064-276.558,276.563c0.012,152.487,124.076,276.558,276.569,276.558h0.023
+                                    c152.47,0,276.521-124.059,276.521-276.558C582.561,153.506,458.496,29.442,306.003,29.442z"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                    </span>
+                <!--Your modal content goes here-->
+                <h1 id="modal-headliner"> Project Sakura </h1>
+                <p id="modal-starter" class="modal-info container"> Project Sakura is a yelp-like application to help users find japanese music events in their area. The app is built in React.js and Redux combined with two external API's: Google Maps and SoundCloud. As of right now, the app only has a front-end but I will integrate a backend to it in the future. I was the sole developer and designer for this project. I also created the svg illustrations via Adobe Illustrator. </p>
+                      <p class="modal-info container">
+                 I created this application because as a japanese music fan, I found it difficult to find a reliable japanese music event application on the web. Although there are a few sites that have japanese music event listings such as Facebook and small blogs, there is no reliable application out there that maintains this data. This is why I developed Project Sakura, an application that is frequently up-to-date with the latest japanese music events, all in one application. From a design perspective, I wanted to create something visually appealing. Because I love creating vector graphics and Adobe Illustrator, I decided to make the majority of the site in SVG graphics. </p>
+                <h1 id="techs"> Technologies Used:</h1>
+                <div class="text-center">
+                <img class="tech-icon" src="css/images/React.png"/>
+                <img class="tech-icon" src="css/images/redux.png"/>
+                <img class="tech-icon" src="css/images/Photoshop.jpg"/>
+                <img class="tech-icon" src="css/images/illustrator.svg"/>
+                    </div>
+                <div class="text-center container">
+            
+        <div class="web-links"><a class="external-link" href="https://projectsaku.herokuapp.com/">Website</a><a class="external-link" href="https://github.com/bgabot89/Project_Sakura_V2">Github Code</a></div>
+                    </div>
+            </div>
+        </div>
+    
+    <div id="modal-04">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->                
+            <div class="modalContentJAM">
+                <span id="btn-close-modal" class="close-modal-04"> 
+                <svg version="1.1" id="close-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612.006 612.006" style="color: white; z-index:1;" xml:space="preserve">
+                    <g id="x-button">
+                        <g>
+		                     <g>
+			                     <g id="x-svg">
+                                    <path d="M423.23,437.955c-3.769,0-7.53-1.438-10.41-4.311L178.371,199.177c-5.748-5.747-5.748-15.068,0-20.815
+                                        c5.753-5.753,15.068-5.753,20.815,0l234.45,234.46c5.753,5.753,5.753,15.075,0,20.815
+                                        C430.762,436.518,426.999,437.955,423.23,437.955z"/>
+                                    <path d="M188.781,437.955c-3.769,0-7.531-1.438-10.411-4.311c-5.748-5.747-5.748-15.069,0-20.816l234.449-234.466
+                                        c5.753-5.753,15.068-5.753,20.815,0c5.753,5.747,5.753,15.068,0,20.815l-234.45,234.467
+                                        C196.313,436.518,192.544,437.955,188.781,437.955z"/>
+                                </g>
+                                <path d="M306.038,612.006v-14.721l-0.023,14.721c-168.722,0-306-137.271-306.012-306C0.003,137.272,137.275,0,306.003,0
+                                    c168.729,0,306,137.272,306,306.006C612.003,474.74,474.743,612.006,306.038,612.006z M306.003,29.442
+                                    c-152.5,0-276.558,124.064-276.558,276.563c0.012,152.487,124.076,276.558,276.569,276.558h0.023
+                                    c152.47,0,276.521-124.059,276.521-276.558C582.561,153.506,458.496,29.442,306.003,29.442z"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                    </span>
+                <!--Your modal content goes here-->
+                <h1 id="modal-headliner"> Japanese American Museum </h1>
+                <p id="modal-starter" class="modal-info container"> The Japanese American Museum Project is a project built for the Japanese American Museum in San Jose focusing on Internment camps. The app was built in AngularJS. I wanted to challenge myself but not using a grid framework such as bootstrap to organize the site, so I used Flexbox instead. Site is currently a work in progress.</p>
+                <h1 id="techs"> Technologies Used:</h1>
+                <div class="text-center">
+                <img class="tech-icon" src="css/images/angular.png"/>
+                <img class="tech-icon" src="css/images/javascript.png"/>    
+                <img class="tech-icon" src="css/images/Photoshop.jpg"/>
+                    </div>
+                <div class="text-center container">
+            
+        <div class="web-links"><a class="external-link" href="https://projectsaku.herokuapp.com/">Website</a><a class="external-link" href="https://github.com/bgabot89/Project_Sakura_V2">Github Code</a></div>
+                    </div>
+            </div>
+        </div>
+    
+    <div id="modal-05">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->                
+            <div class="modalContentSean">
+                <span id="btn-close-modal" class="close-modal-05"> 
+                <svg version="1.1" id="close-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612.006 612.006" style="color: white; z-index:1;" xml:space="preserve">
+                    <g id="x-button">
+                        <g>
+		                     <g>
+			                     <g id="x-svg">
+                                    <path d="M423.23,437.955c-3.769,0-7.53-1.438-10.41-4.311L178.371,199.177c-5.748-5.747-5.748-15.068,0-20.815
+                                        c5.753-5.753,15.068-5.753,20.815,0l234.45,234.46c5.753,5.753,5.753,15.075,0,20.815
+                                        C430.762,436.518,426.999,437.955,423.23,437.955z"/>
+                                    <path d="M188.781,437.955c-3.769,0-7.531-1.438-10.411-4.311c-5.748-5.747-5.748-15.069,0-20.816l234.449-234.466
+                                        c5.753-5.753,15.068-5.753,20.815,0c5.753,5.747,5.753,15.068,0,20.815l-234.45,234.467
+                                        C196.313,436.518,192.544,437.955,188.781,437.955z"/>
+                                </g>
+                                <path d="M306.038,612.006v-14.721l-0.023,14.721c-168.722,0-306-137.271-306.012-306C0.003,137.272,137.275,0,306.003,0
+                                    c168.729,0,306,137.272,306,306.006C612.003,474.74,474.743,612.006,306.038,612.006z M306.003,29.442
+                                    c-152.5,0-276.558,124.064-276.558,276.563c0.012,152.487,124.076,276.558,276.569,276.558h0.023
+                                    c152.47,0,276.521-124.059,276.521-276.558C582.561,153.506,458.496,29.442,306.003,29.442z"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                    </span>
+                <!--Your modal content goes here-->
+                <h1 id="modal-headliner"> Seanronimo.com </h1>
+                <p id="modal-starter" class="modal-info container"> Seanronimo.com is the current freelance project that I'm currently working on. The project is the portfolio site of my friend, who is a ux/ui designer. My role for this project is a front-end developer</p>
+                <h1 id="techs"> Technologies Used:</h1>
+                <div class="text-center">
+                <img class="tech-icon" src="css/images/html5.png"/> 
+                <img class="tech-icon" src="css/images/javascript.png"/>    
+                <img class="tech-icon" src="css/images/jquery.png"/>
+                    </div>
+                <div class="text-center container">
+            
+        <div class="web-links"><a class="external-link" href="http://beta.seanronimo.com">Website</a><a class="external-link" href="https://github.com/seanronimo/seanronimo.com">Github Code</a></div>
+                    </div>
+            </div>
+        </div>
+    
+    <div id="modal-06">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->                
+            <div class="modalContentLFG">
+                <span id="btn-close-modal" class="close-modal-06"> 
+                <svg version="1.1" id="close-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612.006 612.006" style="color: white; z-index:1;" xml:space="preserve">
+                    <g id="x-button">
+                        <g>
+		                     <g>
+			                     <g id="x-svg">
+                                    <path d="M423.23,437.955c-3.769,0-7.53-1.438-10.41-4.311L178.371,199.177c-5.748-5.747-5.748-15.068,0-20.815
+                                        c5.753-5.753,15.068-5.753,20.815,0l234.45,234.46c5.753,5.753,5.753,15.075,0,20.815
+                                        C430.762,436.518,426.999,437.955,423.23,437.955z"/>
+                                    <path d="M188.781,437.955c-3.769,0-7.531-1.438-10.411-4.311c-5.748-5.747-5.748-15.069,0-20.816l234.449-234.466
+                                        c5.753-5.753,15.068-5.753,20.815,0c5.753,5.747,5.753,15.068,0,20.815l-234.45,234.467
+                                        C196.313,436.518,192.544,437.955,188.781,437.955z"/>
+                                </g>
+                                <path d="M306.038,612.006v-14.721l-0.023,14.721c-168.722,0-306-137.271-306.012-306C0.003,137.272,137.275,0,306.003,0
+                                    c168.729,0,306,137.272,306,306.006C612.003,474.74,474.743,612.006,306.038,612.006z M306.003,29.442
+                                    c-152.5,0-276.558,124.064-276.558,276.563c0.012,152.487,124.076,276.558,276.569,276.558h0.023
+                                    c152.47,0,276.521-124.059,276.521-276.558C582.561,153.506,458.496,29.442,306.003,29.442z"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                    </span>
+                <!--Your modal content goes here-->
+                <h1 id="modal-headliner"> Looking For Group </h1>
+                <p id="modal-starter" class="modal-info container"> LFG is a social networking portal targeted towards gamers. Members will be able to form meet up groups for a specific game. I collaborated with three other group members to create a website built from Ruby on Rails. On the back-end, I worked on routings, authorizations, validations and seeded data while on the front-end, I worked on CSS stylings and some design work.</p>
+                <h1 id="techs"> Technologies Used:</h1>
+                <div class="text-center">
+                    <img class="tech-icon" src="css/images/html5.png"/>  
+                    <img class="tech-icon" src="css/images/ruby.png"/> 
+                    <img class="tech-icon" src="css/images/rails.png"/>
+                      <img class="tech-icon" src="css/images/postgres.png"/> 
+                    <img class="tech-icon" src="css/images/illustrator.svg"/>
+                </div>
+                <div class="text-center container">
+            
+        <div class="web-links"><a class="external-link" href="http://beta.seanronimo.com">Website</a><a class="external-link" href="https://github.com/seanronimo/seanronimo.com">Github Code</a></div>
+                    </div>
+            </div>
+        </div>
+    
+    <div id="modal-07">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->                
+            <div class="modalContentPixel">
+                <span id="btn-close-modal" class="close-modal-07"> 
+                <svg version="1.1" id="close-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612.006 612.006" style="color: white; z-index:1;" xml:space="preserve">
+                    <g id="x-button">
+                        <g>
+		                     <g>
+			                     <g id="x-svg">
+                                    <path d="M423.23,437.955c-3.769,0-7.53-1.438-10.41-4.311L178.371,199.177c-5.748-5.747-5.748-15.068,0-20.815
+                                        c5.753-5.753,15.068-5.753,20.815,0l234.45,234.46c5.753,5.753,5.753,15.075,0,20.815
+                                        C430.762,436.518,426.999,437.955,423.23,437.955z"/>
+                                    <path d="M188.781,437.955c-3.769,0-7.531-1.438-10.411-4.311c-5.748-5.747-5.748-15.069,0-20.816l234.449-234.466
+                                        c5.753-5.753,15.068-5.753,20.815,0c5.753,5.747,5.753,15.068,0,20.815l-234.45,234.467
+                                        C196.313,436.518,192.544,437.955,188.781,437.955z"/>
+                                </g>
+                                <path d="M306.038,612.006v-14.721l-0.023,14.721c-168.722,0-306-137.271-306.012-306C0.003,137.272,137.275,0,306.003,0
+                                    c168.729,0,306,137.272,306,306.006C612.003,474.74,474.743,612.006,306.038,612.006z M306.003,29.442
+                                    c-152.5,0-276.558,124.064-276.558,276.563c0.012,152.487,124.076,276.558,276.569,276.558h0.023
+                                    c152.47,0,276.521-124.059,276.521-276.558C582.561,153.506,458.496,29.442,306.003,29.442z"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                    </span>
+                <!--Your modal content goes here-->
+                <h1 id="modal-headliner"> Pixel Wearables </h1>
+                <p id="modal-starter" class="modal-info container"> PixelWearables was a stealth-mode startup that I worked from September 2016 – December 2016. The idea of our company revolved around a product that one of our co-founders created: an LED product that could render text and emojis from your smartphone.</p>
+                <h1 id="techs"> Technologies Used:</h1>
+                <div class="text-center">
+                <img class="tech-icon" src="css/images/drupal.png"/> 
+                <img class="tech-icon" src="css/images/rails.png"/> 
+                    </div>
+                <div class="text-center container">
+            
+        <div class="web-links"><a class="external-link" href="http://pixelwearables.co/">Website</a><a class="external-link" href="pixels_mockup.shtml">Mockup</a></div>
+                    </div>
+            </div>
+        </div>
+    
+    <div id="modal-08">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->                
+            <div class="modalContentSquaddie">
+                <span id="btn-close-modal" class="close-modal-08"> 
+                <svg version="1.1" id="close-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612.006 612.006" style="color: white; z-index:1;" xml:space="preserve">
+                    <g id="x-button">
+                        <g>
+		                     <g>
+			                     <g id="x-svg">
+                                    <path d="M423.23,437.955c-3.769,0-7.53-1.438-10.41-4.311L178.371,199.177c-5.748-5.747-5.748-15.068,0-20.815
+                                        c5.753-5.753,15.068-5.753,20.815,0l234.45,234.46c5.753,5.753,5.753,15.075,0,20.815
+                                        C430.762,436.518,426.999,437.955,423.23,437.955z"/>
+                                    <path d="M188.781,437.955c-3.769,0-7.531-1.438-10.411-4.311c-5.748-5.747-5.748-15.069,0-20.816l234.449-234.466
+                                        c5.753-5.753,15.068-5.753,20.815,0c5.753,5.747,5.753,15.068,0,20.815l-234.45,234.467
+                                        C196.313,436.518,192.544,437.955,188.781,437.955z"/>
+                                </g>
+                                <path d="M306.038,612.006v-14.721l-0.023,14.721c-168.722,0-306-137.271-306.012-306C0.003,137.272,137.275,0,306.003,0
+                                    c168.729,0,306,137.272,306,306.006C612.003,474.74,474.743,612.006,306.038,612.006z M306.003,29.442
+                                    c-152.5,0-276.558,124.064-276.558,276.563c0.012,152.487,124.076,276.558,276.569,276.558h0.023
+                                    c152.47,0,276.521-124.059,276.521-276.558C582.561,153.506,458.496,29.442,306.003,29.442z"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                    </span>
+                <!--Your modal content goes here-->
+                <h1 id="modal-headliner"> Squaddie </h1>
+                <p id="modal-starter" class="modal-info container"> Squaddie is a web application to help companies create software engineering teams through personaility tests. Using traitify's api and a complex algorithm, employers are able to assign specific employees into certain groups.</p>
+                <p class="modal-info container"> This application was built during the API World 2016 Hackathon. I collaborated with 4 other people to build this app. My responsibilities included: explaining the functionality of the API (since I had prior knowledge of it on a previous app), wireframing,  building the website interface and launching the site on a web server. The application won the 2nd place sponsor winner award from Traitify.</p>
+                
+                <h1 id="techs"> Technologies Used:</h1>
+                <div class="text-center">
+                <img class="tech-icon" src="css/images/html5.png"/> 
+                <img class="tech-icon" src="css/images/javascript.png"/> 
+                <img class="tech-icon" src="css/images/jquery.png"/> 
+                    </div>
+                <div class="text-center container">
+            
+        <div class="web-links"><a class="external-link" href="http://squaddie.herokuapp.com/">Website</a><a class="external-link" href="https://github.com/DustinX/Hackathon">Github Code</a></div>
+                    </div>
+            </div>
+        </div>
+
+
 
 <!--
  <div class="contact-section">
@@ -345,6 +646,140 @@
                     console.log("The animation is completed");
                 } 
     })
+    
+     $("#demo02").animatedModal({
+          modalTarget:'modal-02',
+                animatedIn:'zoomIn',
+                animatedOut:'bounceOut',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                } 
+    })
+    $("#demo03").animatedModal({
+          modalTarget:'modal-03',
+                animatedIn:'zoomIn',
+                animatedOut:'bounceOut',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                } 
+    })
+    $("#demo04").animatedModal({
+          modalTarget:'modal-04',
+                animatedIn:'zoomIn',
+                animatedOut:'bounceOut',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                } 
+    })
+    $("#demo05").animatedModal({
+          modalTarget:'modal-05',
+                animatedIn:'zoomIn',
+                animatedOut:'bounceOut',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                } 
+    })
+        $("#demo06").animatedModal({
+          modalTarget:'modal-06',
+                animatedIn:'zoomIn',
+                animatedOut:'bounceOut',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                }
+    })
+    $("#demo07").animatedModal({
+          modalTarget:'modal-07',
+                animatedIn:'zoomIn',
+                animatedOut:'bounceOut',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                }
+    });
+    $("#demo08").animatedModal({
+          modalTarget:'modal-08',
+                animatedIn:'zoomIn',
+                animatedOut:'bounceOut',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                }
+    });
     $('#btn-close-modal').click(function() {
         console.log('clicked');
 });
