@@ -19,6 +19,7 @@
 	<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script> -->
 
     <script src="js/jquery.easing.min.js"></script>
+    <script src="js/animatedModal.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/scroll.js"></script>
@@ -80,8 +81,8 @@
  <!-- /.container-fluid -->
 </nav>
 
-
 <section class="header">
+    
 		<div class="os-animation" data-os-animation="bounceIn" data-os-animation-delay="0.5s">
 		<svg version="1.1" width="200px" id="bg-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 			 viewBox="0 0 475.5 447.7" style="enable-background:new 0 0 475.5 447.7;" xml:space="preserve">
@@ -105,7 +106,7 @@
 </section>
 
 <div class="about" id="about">
-	<div class="os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
+	<div>
 		<img id="profile" src="css/images/profile.jpg">
 		<h2 class="about-par"> About Me </h2>
 
@@ -148,11 +149,15 @@
 
 <!-- <div class="row text-center project-section"> -->
 
+     
+    
 <div class="grid-content" id="projects">
+    
+    
 	<div class="grid">
 		<h2 class="proj-title">Projects</h2>
 		<figure class="effect-layla">
-            <a href="collab.shtml">
+            <a id="demo01" href="#modal-01">
 			<img class="grid-image" src="css/images/collab-grid-image.png">
 			<figcaption>
 				<h4 class="grid-headliner">Collab-A-Comic</h4>
@@ -238,6 +243,51 @@
 	</figure>
 </div>
 </div> 
+    
+    <div id="modal-01">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->                
+            <div class="modalContentComic">
+                <span id="btn-close-modal" class="close-modal-01"> 
+                <svg version="1.1" id="close-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612.006 612.006" style="color: white; z-index:1;" xml:space="preserve">
+                    <g id="x-button">
+                        <g>
+		                     <g>
+			                     <g id="x-svg">
+                                    <path d="M423.23,437.955c-3.769,0-7.53-1.438-10.41-4.311L178.371,199.177c-5.748-5.747-5.748-15.068,0-20.815
+                                        c5.753-5.753,15.068-5.753,20.815,0l234.45,234.46c5.753,5.753,5.753,15.075,0,20.815
+                                        C430.762,436.518,426.999,437.955,423.23,437.955z"/>
+                                    <path d="M188.781,437.955c-3.769,0-7.531-1.438-10.411-4.311c-5.748-5.747-5.748-15.069,0-20.816l234.449-234.466
+                                        c5.753-5.753,15.068-5.753,20.815,0c5.753,5.747,5.753,15.068,0,20.815l-234.45,234.467
+                                        C196.313,436.518,192.544,437.955,188.781,437.955z"/>
+                                </g>
+                                <path d="M306.038,612.006v-14.721l-0.023,14.721c-168.722,0-306-137.271-306.012-306C0.003,137.272,137.275,0,306.003,0
+                                    c168.729,0,306,137.272,306,306.006C612.003,474.74,474.743,612.006,306.038,612.006z M306.003,29.442
+                                    c-152.5,0-276.558,124.064-276.558,276.563c0.012,152.487,124.076,276.558,276.569,276.558h0.023
+                                    c152.47,0,276.521-124.059,276.521-276.558C582.561,153.506,458.496,29.442,306.003,29.442z"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                    </span>
+                <!--Your modal content goes here-->
+                <h1 id="modal-headliner"> Collab-A-Comic </h1>
+                <p id="modal-starter" class="modal-info container"> Collab-a-comic is a website application that helps comic book writers and artists find a collaboration partner. When creating a comic,
+		you'll need two key skills: being a good writer and artist. However, it is difficult to be proficient in these two skills: you can be a good artist
+		but lack writing skills or vice-versa you can be a great writer but not a great artist. This is where I got the idea for the site: to help artists find writers and to help writers find artists to create their comic.</p>
+        <p class="modal-info container">
+        The website was created through ruby on rails for the front-end and PostgreSQL for the backend. Although I used this stack on LFG, the group project that I worked on, I chose Rails/PostgreSQL to show that I can create a ruby on rails project on my own. </p>
+                <h1 id="techs"> Technologies Used:</h1>
+                <div class="text-center">
+                <img class="tech-icon" src="css/images/rails.png"/>
+                <img class="tech-icon" src="css/images/postgres.png"/>
+                <img class="tech-icon" src="css/images/Photoshop.jpg"/>
+                    </div>
+                <div class="text-center container">
+            
+        <div class="web-links"><a class="external-link" href="http://collabacomic.herokuapp.com/">Website</a><a class="external-link" href="https://github.com/bgabot89/ComicMatcher">Github Code</a></div>
+                    </div>
+            </div>
+        </div>
 
 <!--
  <div class="contact-section">
@@ -274,7 +324,31 @@
   <p class="copyright">©2017 Developed by Brian Gabot, All rights Reserved</p>
 </footer>
 
-
+<script>
+ 
+    $("#demo01").animatedModal({
+          modalTarget:'modal-01',
+                animatedIn:'zoomIn',
+                animatedOut:'bounceOut',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                } 
+    })
+    $('#btn-close-modal').click(function() {
+        console.log('clicked');
+});
+</script>
 
 </body>
 </html>
