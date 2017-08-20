@@ -71,9 +71,18 @@ hr {
 	letter-spacing: 10px;
 }
 
-#list {
-	font-size: 40px;
-    padding-top: 70px;
+@media (min-width:581px){
+    #list {
+        font-size: 40px;
+        padding-top: 70px;
+    }
+}
+
+@media (max-width:580px){
+    #list {
+        font-size: 30px;
+        padding-top: 100px;
+    }
 }
 
 @media (max-width: 477px) {
@@ -1469,6 +1478,11 @@ figure.snip1205:hover #pixel-text{
     }
 }
 
+.modal-project-info {
+    max-height: 400px;
+    overflow: visible;
+}
+
 
 #techs {
     color: #fff;
@@ -1521,5 +1535,7 @@ figure.snip1205:hover #pixel-text{
         transform: translate3d(0,-10px,0);
     }
 }
+
+
 
 

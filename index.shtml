@@ -23,6 +23,7 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/scroll.js"></script>
+    <script src="js/modal.js"></script>
 
 </head>
 <!--HEAD ENDS here -->
@@ -271,17 +272,19 @@
                     </span>
                 <!--Your modal content goes here-->
                 <h1 id="modal-headliner"> Collab-A-Comic </h1>
-                <p id="modal-starter" class="modal-info container"> Collab-a-comic is a website application that helps comic book writers and artists find a collaboration partner. When creating a comic,
-		you'll need two key skills: being a good writer and artist. However, it is difficult to be proficient in these two skills: you can be a good artist
-		but lack writing skills or vice-versa you can be a great writer but not a great artist. This is where I got the idea for the site: to help artists find writers and to help writers find artists to create their comic.</p>
-        <p class="modal-info container">
-        The website was created through ruby on rails for the front-end and PostgreSQL for the backend. Although I used this stack on LFG, the group project that I worked on, I chose Rails/PostgreSQL to show that I can create a ruby on rails project on my own. </p>
+                <div class="modal-project-info">
+                    <p id="modal-starter" class="modal-info container"> Collab-a-comic is a website application that helps comic book writers and artists find a collaboration partner. When creating a comic,
+            you'll need two key skills: being a good writer and artist. However, it is difficult to be proficient in these two skills: you can be a good artist
+            but lack writing skills or vice-versa you can be a great writer but not a great artist. This is where I got the idea for the site: to help artists find writers and to help writers find artists to create their comic.</p>
+            <p class="modal-info container">
+            The website was created through ruby on rails for the front-end and PostgreSQL for the backend. Although I used this stack on LFG, the group project that I worked on, I chose Rails/PostgreSQL to show that I can create a ruby on rails project on my own. </p>
+                </div>
                 <h1 id="techs"> Technologies Used:</h1>
                 <div class="text-center">
-                    <img class="tech-icon" src="css/images/ruby.png"/>
-                    <img class="tech-icon" src="css/images/rails.png"/>
-                    <img class="tech-icon" src="css/images/postgres.png"/>
-                    <img class="tech-icon" src="css/images/Photoshop.jpg"/>
+                    <img class="tech-icon" alt="ruby" src="css/images/ruby.png"/>
+                    <img class="tech-icon" alt="rails" src="css/images/rails.png"/>
+                    <img class="tech-icon" alt="postgresql" src="css/images/postgres.png"/>
+                    <img class="tech-icon" alt="photoshop" src="css/images/Photoshop.jpg"/>
                         </div>
                 <div class="text-center container">
             
@@ -319,9 +322,11 @@
                     </span>
                 <!--Your modal content goes here-->
                 <h1 id="modal-headliner"> Persona Gamer </h1>
-                <p id="modal-starter" class="modal-info container"> Persona Gamer is a personality test application catered towards RPG gamers. This was the first full-stack web application that I ever created. For the front-end, I used HTML, CSS, Javascript and jQuery. For the back-end, I used MongoDB.</p>
-                <p class="modal-info container">     
-                When I first started building the application, I integrated traitify's API. However, I found that their were certain restrictions of the API. In the end, I removed the API from the site and replaced it with personality tests rewritten in jQuery and vanilla javascript.</p>
+                <div class="modal-project-info">
+                    <p id="modal-starter" class="modal-info container"> Persona Gamer is a personality test application catered towards RPG gamers. This was the first full-stack web application that I ever created. For the front-end, I used HTML, CSS, Javascript and jQuery. For the back-end, I used MongoDB.</p>
+                    <p class="modal-info container">     
+                    When I first started building the application, I integrated traitify's API. However, I found that their were certain restrictions of the API. In the end, I removed the API from the site and replaced it with personality tests rewritten in jQuery and vanilla javascript.</p>
+                </div>
                 <h1 id="techs"> Technologies Used:</h1>
                 <div class="text-center">
                 <img class="tech-icon" src="css/images/javascript.png"/>
@@ -363,9 +368,11 @@
                     </span>
                 <!--Your modal content goes here-->
                 <h1 id="modal-headliner"> Project Sakura </h1>
+                <div class="modal-project-info">
                 <p id="modal-starter" class="modal-info container"> Project Sakura is a yelp-like application to help users find japanese music events in their area. The app is built in React.js and Redux combined with two external API's: Google Maps and SoundCloud. As of right now, the app only has a front-end but I will integrate a backend to it in the future. I was the sole developer and designer for this project. I also created the svg illustrations via Adobe Illustrator. </p>
                       <p class="modal-info container">
                  I created this application because as a japanese music fan, I found it difficult to find a reliable japanese music event application on the web. Although there are a few sites that have japanese music event listings such as Facebook and small blogs, there is no reliable application out there that maintains this data. This is why I developed Project Sakura, an application that is frequently up-to-date with the latest japanese music events, all in one application. From a design perspective, I wanted to create something visually appealing. Because I love creating vector graphics and Adobe Illustrator, I decided to make the majority of the site in SVG graphics. </p>
+                </div>
                 <h1 id="techs"> Technologies Used:</h1>
                 <div class="text-center">
                 <img class="tech-icon" src="css/images/React.png"/>
@@ -407,13 +414,15 @@
                     </span>
                 <!--Your modal content goes here-->
                 <h1 id="modal-headliner"> Japanese American Museum </h1>
-                <p id="modal-starter" class="modal-info container"> The Japanese American Museum Project is a project built for the Japanese American Museum in San Jose focusing on Internment camps. The app was built in AngularJS. I wanted to challenge myself but not using a grid framework such as bootstrap to organize the site, so I used Flexbox instead. Site is currently a work in progress.</p>
+                <div class="modal-project-info">
+                    <p id="modal-starter" class="modal-info container"> The Japanese American Museum Project is a project built for the Japanese American Museum in San Jose focusing on Internment camps. The app was built in AngularJS. I wanted to challenge myself but not using a grid framework such as bootstrap to organize the site, so I used Flexbox instead. Site is currently a work in progress.</p>
+                </div>
                 <h1 id="techs"> Technologies Used:</h1>
                 <div class="text-center">
                 <img class="tech-icon" src="css/images/angular.png"/>
                 <img class="tech-icon" src="css/images/javascript.png"/>    
                 <img class="tech-icon" src="css/images/Photoshop.jpg"/>
-                    </div>
+                </div>
                 <div class="text-center container">
             
         <div class="web-links"><a class="external-link" href="https://projectsaku.herokuapp.com/">Website</a><a class="external-link" href="https://github.com/bgabot89/Project_Sakura_V2">Github Code</a></div>
@@ -536,7 +545,8 @@
                 <h1 id="techs"> Technologies Used:</h1>
                 <div class="text-center">
                 <img class="tech-icon" src="css/images/drupal.png"/> 
-                <img class="tech-icon" src="css/images/rails.png"/> 
+                <img class="tech-icon" src="css/images/html5.png"/> 
+                <img class="tech-icon" src="css/images/javascript.png"/> 
                     </div>
                 <div class="text-center container">
             
@@ -624,166 +634,6 @@
     
   <p class="copyright">©2017 Developed by Brian Gabot, All rights Reserved</p>
 </footer>
-
-<script>
- 
-    $("#demo01").animatedModal({
-          modalTarget:'modal-01',
-                animatedIn:'zoomIn',
-                animatedOut:'bounceOut',
-                color:'#3498db',
-                // Callbacks
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                    console.log("The animation is completed");
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                } 
-    })
-    
-     $("#demo02").animatedModal({
-          modalTarget:'modal-02',
-                animatedIn:'zoomIn',
-                animatedOut:'bounceOut',
-                color:'#3498db',
-                // Callbacks
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                    console.log("The animation is completed");
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                } 
-    })
-    $("#demo03").animatedModal({
-          modalTarget:'modal-03',
-                animatedIn:'zoomIn',
-                animatedOut:'bounceOut',
-                color:'#3498db',
-                // Callbacks
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                    console.log("The animation is completed");
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                } 
-    })
-    $("#demo04").animatedModal({
-          modalTarget:'modal-04',
-                animatedIn:'zoomIn',
-                animatedOut:'bounceOut',
-                color:'#3498db',
-                // Callbacks
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                    console.log("The animation is completed");
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                } 
-    })
-    $("#demo05").animatedModal({
-          modalTarget:'modal-05',
-                animatedIn:'zoomIn',
-                animatedOut:'bounceOut',
-                color:'#3498db',
-                // Callbacks
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                    console.log("The animation is completed");
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                } 
-    })
-        $("#demo06").animatedModal({
-          modalTarget:'modal-06',
-                animatedIn:'zoomIn',
-                animatedOut:'bounceOut',
-                color:'#3498db',
-                // Callbacks
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                    console.log("The animation is completed");
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                }
-    })
-    $("#demo07").animatedModal({
-          modalTarget:'modal-07',
-                animatedIn:'zoomIn',
-                animatedOut:'bounceOut',
-                color:'#3498db',
-                // Callbacks
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                    console.log("The animation is completed");
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                }
-    });
-    $("#demo08").animatedModal({
-          modalTarget:'modal-08',
-                animatedIn:'zoomIn',
-                animatedOut:'bounceOut',
-                color:'#3498db',
-                // Callbacks
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                    console.log("The animation is completed");
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                }
-    });
-    $('#btn-close-modal').click(function() {
-        console.log('clicked');
-});
-</script>
 
 </body>
 </html>
